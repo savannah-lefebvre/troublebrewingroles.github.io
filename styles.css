@@ -1,0 +1,118 @@
+@font-face {
+  font-family: Manufacturing Consent;
+  src: url(../fonts/ManufacturingConsent-Regular.ttf); 
+}
+
+/* Global */
+body {
+    margin: 0;
+    background-image: url("../images/parchment.jpeg");
+    background-size: cover;
+    font-family: Georgia, serif;
+}
+
+
+/* Header */
+header {
+    background: url("../images/header.png") no-repeat bottom;
+    height: 250px;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+header h1 {
+    font-family: 'Manufacturing Consent', sans-serif;
+    font-size: 55px;
+    width: 600px;
+    margin: 0px 0px 0px 20px;
+}
+
+/* Navigation */
+nav {
+    float: right;
+    padding: 90px 20px 0px 0px;
+}
+
+nav a {
+    color: #FFFFFF;
+    font-size: 25px;
+    margin: 20px;
+}
+
+nav a:hover {
+    background-color: #FFFFFF;
+    color: #780606;
+    padding: 4px 6px 4px 6px;
+}
+
+/* Main */
+main {
+    width: 900px;
+    margin: auto;
+    font-size: 20px;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    margin-bottom: 100px;
+    border: 15px ridge #8d8d8d;
+}
+
+a{
+    color: #780606;
+}
+
+/* Character Blocks */
+.character {
+    overflow: auto;
+    margin-bottom: 25px;
+}
+
+.character img {
+    float: left;
+    width: 90px;
+    margin: 13px 15px 0px 0px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #630707;
+    height: 70px;
+    color: #FFFFFF;
+    font-style: italic;
+    text-align: center;
+    align-content: center;
+}
+
+/* Headings decoration */
+h3 {
+    text-decoration: underline;
+}
+
+.good h3 {
+    color: #4292C6;
+}
+
+.evil h3 {
+    color: #780606;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+        height: auto;
+        font-size: 24px;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
